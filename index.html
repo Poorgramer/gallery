@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>图片（相册）展示设计</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="scene">
+
+        <!-- 展示层，这里我复制了4层，可以根据自己需要进行修改 -->
+        <div class="img-cont left cont-1" data-helper="0" data-blocks="1"></div>
+        <div class="img-cont right cont-1" data-helper="0" data-blocks="1"></div>
+        <div class="content cont-1">
+            <span class="close">+</span>
+        </div>
+
+        <div class="img-cont left cont-2" data-helper="-1" data-blocks="2"></div>
+        <div class="img-cont right cont-2" data-helper="1" data-blocks="2"></div>
+        <div class="content cont-2">
+            <span class="close">+</span>
+        </div>
+
+        <div class="img-cont left cont-3" data-helper="-2" data-blocks="3"></div>
+        <div class="img-cont right cont-3" data-helper="2" data-blocks="3"></div>
+        <div class="content cont-3">
+            <span class="close">+</span>
+        </div>
+
+        <div class="img-cont left cont-4" data-helper="-3" data-blocks="4"></div>
+        <div class="img-cont right cont-4" data-helper="3" data-blocks="4"></div>
+        <div class="content cont-4">
+            <span class="close">+</span>
+        </div>
+        <div class="img-cont left cont-5" data-helper="-4" data-blocks="5"></div>
+        <div class="img-cont right cont-5" data-helper="4" data-blocks="5"></div>
+        <div class="content cont-5">
+            <span class="close">+</span>
+        </div>
+        <div class="img-cont left cont-6" data-helper="-5" data-blocks="6"></div>
+        <div class="img-cont right cont-6" data-helper="5" data-blocks="6"></div>
+        <div class="content cont-6">
+            <span class="close">+</span>
+        </div>
+        <div class="img-cont left cont-7" data-helper="-6" data-blocks="7"></div>
+        <div class="img-cont right cont-7" data-helper="6" data-blocks="7"></div>
+        <div class="content cont-7">
+            <span class="close">+</span>
+        </div>
+        <div class="img-cont left cont-8" data-helper="-7" data-blocks="8"></div>
+        <div class="img-cont right cont-8" data-helper="7" data-blocks="8"></div>
+        <div class="content cont-8">
+            <span class="close">+</span>
+        </div>
+        <div class="img-cont left cont-9" data-helper="-8" data-blocks="9"></div>
+        <div class="img-cont right cont-9" data-helper="8" data-blocks="9"></div>
+        <div class="content cont-9">
+            <span class="close">+</span>
+        </div>
+        <div class="img-cont left cont-10" data-helper="-9" data-blocks="10"></div>
+        <div class="img-cont right cont-10" data-helper="9" data-blocks="10"></div>
+        <div class="content cont-10">
+            <span class="close">+</span>
+        </div>
+        <div class="img-cont left cont-11" data-helper="-10" data-blocks="11"></div>
+        <div class="img-cont right cont-11" data-helper="10" data-blocks="11"></div>
+        <div class="content cont-11">
+            <span class="close">+</span>
+        </div>
+        <div class="img-cont left cont-12" data-helper="-11" data-blocks="12"></div>
+        <div class="img-cont right cont-12" data-helper="11" data-blocks="12"></div>
+        <div class="content cont-12">
+            <span class="close">+</span>
+        </div>
+        <div class="img-cont left cont-13" data-helper="-12" data-blocks="13"></div>
+        <div class="img-cont right cont-13" data-helper="12" data-blocks="13"></div>
+        <div class="content cont-13">
+            <span class="close">+</span>
+        </div>
+        <div class="img-cont left cont-14" data-helper="-13" data-blocks="14"></div>
+        <div class="img-cont right cont-14" data-helper="13" data-blocks="14"></div>
+        <div class="content cont-14">
+            <span class="close">+</span>
+        </div>
+
+        <h1 class="heading">UST VIEWS</h1>
+        <p class="scroll-down">scroll down</p>
+        <p class="click-blocks">click me~</p>
+        <div class="pagination">
+            <ul class="page-names">
+                <li class="active" data-page="1">Page 1</li>
+                <li data-page="2">Page 2</li>
+                <li data-page="3">Page 3</li>
+                <li data-page="4">Page 4</li>
+                <li data-page="5">Page 5</li>
+                <li data-page="6">Page 6</li>
+                <li data-page="7">Page 7</li>
+                <li data-page="8">Page 8</li>
+                <li data-page="9">Page 9</li>
+                <li data-page="10">Page 10</li>
+                <li data-page="11">Page 11</li>
+                <li data-page="12">Page 12</li>
+                <li data-page="13">Page 13</li>
+                <li data-page="14">Page 14</li>
+            </ul>
+            <ul class="page-dots">
+                <li class="active" data-page="1">•</li>
+                <li data-page="2">•</li>
+                <li data-page="3">•</li>
+                <li data-page="4">•</li>
+                <li data-page="5">•</li>
+                <li data-page="6">•</li>
+                <li data-page="7">•</li>
+                <li data-page="8">•</li>
+                <li data-page="9">•</li>
+                <li data-page="10">•</li>
+                <li data-page="11">•</li>
+                <li data-page="12">•</li>
+                <li data-page="13">•</li>
+                <li data-page="14">•</li>
+
+            </ul>
+        </div>
+    </div>
+
+    <embed src="mp3/1.mp3" hidden="true" autostart="true" loop="true">
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
